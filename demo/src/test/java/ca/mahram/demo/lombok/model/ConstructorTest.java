@@ -2,7 +2,10 @@ package ca.mahram.demo.lombok.model;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
 
 public class ConstructorTest {
 
@@ -16,12 +19,12 @@ public class ConstructorTest {
 
     @Test
     public void allArgsConstructor () {
-        Shape shape = new Shape (0 ,0);
+        Shape shape = new Shape (0, 0);
 
         assertEquals (0, shape.getX ());
         assertEquals (0, shape.getY ());
 
-        shape = new Shape (334 , 46);
+        shape = new Shape (334, 46);
         assertEquals (334, shape.getX ());
         assertEquals (46, shape.getY ());
     }

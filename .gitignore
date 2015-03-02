@@ -22,3 +22,8 @@ out/
 
 .classpath
 .project
+
+# Gradle
+.gradle
+.DS_Store
+build

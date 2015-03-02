@@ -1,11 +1,4 @@
-package ca.mahram.demo.lombok.model;
-
-import java.util.Set;
-
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Singular;
-import lombok.ToString;
+package ca.mahram.demo.lombok;
 
 /**
  Copyright 2015 Mahram Z. Foadi
@@ -26,12 +19,8 @@ import lombok.ToString;
  /**
 
  @author mahram */
-
-@Builder
-@Getter
-@ToString
-public class Person {
-    private           String      name;
-    private           int         age;
-    @Singular private Set<String> jobs;
+public class Main {
+    public static void main (final String[] args) {
+        System.out.println ("Lombok Demo");
+    }
 }
