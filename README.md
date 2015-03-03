@@ -1,6 +1,7 @@
 # Lombok Demo
 
-This repository contains the source code for my Lombok introduction.
+This repository contains the source code for my Lombok introduction, which is the 1st installment of my [_Code Mode Efficiently Series_](http://www.mahram.ca/code-more-efficiently "Code Mode Efficiently")
+
 The slides can be found [here](https://drive.google.com/open?id=1kR345Aet2Atm-lr4yazpTHq7VtJ5TqU-x1JocvrfFSA "Lombok Demo")
 
 I've also written [a blog post](http://www.mahram.ca/lombok-spice-up-your-java "Lombok: Spice up your Java") to accompany the slides.
